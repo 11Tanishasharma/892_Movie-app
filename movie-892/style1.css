@@ -1,0 +1,176 @@
+.poster {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  filter: brightness(0.6);
+  z-index: -1;
+}
+.main {
+  height: 100vh;
+}
+.poster-div {
+  height: 450px;
+  width: 700px;
+}
+.card {
+  margin: 2px;
+  padding: 0;
+  transition: all 0.3s;
+}
+
+.card-img {
+  filter: brightness(0.7);
+  height: 400px;
+}
+body {
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+.search-card,
+.notfound {
+  background: rgba(39, 34, 34, 0.44);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14.6px);
+  -webkit-backdrop-filter: blur(14.6px);
+  padding: 5px 10px;
+}
+.release .card-img-overlay {
+  background: linear-gradient(
+    0deg,
+    hsla(266, 73%, 42%, 1) 0%,
+    hsla(0, 0%, 100%, 0) 30%
+  );
+  transition: all 0.3s;
+}
+
+.release .card-img-overlay:hover {
+  background: rgba(97, 29, 185, 0.559);
+}
+.purple-btn {
+  background: #611db9;
+  color: white;
+}
+
+.upcoming .card,
+.trending .card,
+.popular-tv-shows .card {
+  width: calc(100vw / 5);
+}
+.feature .card {
+  width: 350px;
+}
+.feature .card {
+  margin-right: 3rem;
+}
+.feature .main-content p {
+  width: 50%;
+}
+.award {
+  height: 800px;
+}
+.award-div {
+  width: 50%;
+}
+.award-div video {
+  height: 360px;
+  object-fit: cover;
+}
+.best-pictures {
+  margin-left: 70px;
+}
+.award-div div p {
+  width: 50%;
+}
+.fast .card img,
+.top-rated .card img {
+  width: 150px;
+}
+footer {
+  height: 300px;
+}
+.footer-div {
+  width: 25%;
+}
+.search {
+  width: 40%;
+  height: 500px;
+}
+.search input {
+  height: 40px;
+  border: none;
+  outline: none;
+  width: 60%;
+}
+@media screen and (max-width: 576px) {
+  .upcoming .card,
+  .trending .card,
+  .popular-tv-shows .card {
+    width: calc(100vw / 3);
+    height: 350px;
+  }
+  .feature .card {
+    width: 400px;
+    height: 330px;
+    margin-right: 0;
+  }
+
+  .feature .main-content p {
+    font-size: 10px;
+    width: 100%;
+  }
+  .feature .main-content h1 {
+    font-size: 25px;
+  }
+  .feature .main-content h4 {
+    font-size: 15px;
+  }
+  .feature .main-content div button {
+    font-size: 10px;
+  }
+  .award {
+    height: 1500px;
+  }
+  .award-div {
+    width: 100%;
+  }
+  .award-div video {
+    height: 300px;
+  }
+  .best-pictures {
+    margin-left: 45px;
+  }
+  .award-div div p {
+    width: 90%;
+  }
+  .fast .card img,
+  .top-rated .card img {
+    width: 120px;
+  }
+  footer {
+    height: 1000px;
+  }
+  .footer-div {
+    width: 100%;
+  }
+  .footer-div input {
+    width: 220px;
+  }
+  .footer-desc {
+    width: 25rem;
+  }
+  .search {
+    width: 75%;
+    right: 0px;
+    height: 500px;
+  }
+  .search input {
+    margin-left: 167px;
+    height: 40px;
+    border: none;
+    outline: none;
+    width: 58%;
+  }
+}

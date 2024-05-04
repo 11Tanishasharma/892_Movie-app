@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieSphere</title>
+    <link rel="stylesheet" href="style1.css" />
+    <script defer src="main1.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="bg-black">
+    <div>
+      <!-- Main -->
+      <div
+        class="main d-flex flex-column justify-content-between align-items-start"
+      >
+        <img
+          src="poster/poster1.jpg"
+          alt="background image"
+          class="poster bg-image position-absolute"
+        />
+        <nav class="navbar container navbar-expand-lg navbar-dark mt-3">
+          <div class="container">
+            <a class="navbar-brand" href="#"
+              ><img
+                src="logo.png"
+                alt=""
+                width="200px"
+                style="filter: brightness(1.5)"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div
+                class="navbar-nav w-100 d-flex justify-content-center align-items-center gap-4"
+              >
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Discover</a>
+                <a class="nav-link" href="#">Movie Release</a>
+                <a class="nav-link" href="#">Forum</a>
+                <a class="nav-link" href="#">About</a>
+              </div>
+            </div>
+            <div
+              class="nav-search d-flex justify-content-center align-items-center gap-4 m-auto "
+            >
+              <i class="search-nav fa-solid fa-magnifying-glass text-light"></i>
+    
+              <div
+                class="search position-absolute top-0 d-flex flex-column justify-content-between d-none"
+                
+              >
+                <div
+                  style="height: 40px"
+                  class="d-flex align-items-center justify-content-center mt-2"
+                >
+                  <input
+                    type="text"
+                    placeholder="Search"
+                    class="p-2"
+                    
+                  />
+                  <i
+                    class="search-button fa-solid fa-magnifying-glass bg-secondary text-white d-flex align-items-center justify-content-center fs-5"
+                    style="height: 40px; width: 40px"
+                  ></i>
+                  <i
+                    class="search-cross fa-solid fa-xmark text-white d-flex align-items-center justify-content-center m-2 fs-4"
+                    style="height: 40px; width: 40px"
+                  ></i>
+                </div>
+                <div
+                  class="search-card card d-flex flex-row m-0 bg-transparent text-white d-none"
+                  style="width: 100%; height: 100px"
+                >
+                  <img
+                    src="photo.jpg"
+                    class="card-img-top"
+                    alt="..."
+                    style="width: 70px"
+                  />
+                  <div
+                    class="card-body d-flex flex-column justify-content-center"
+                  >
+                    <h5 class="card-title">Card title</h5>
+
+                    <p class="card-text text-white">
+                      <i class="fa-solid fa-star text-warning me-1"></i>
+                      <span class="opacity-75"> Action, 2022, IMCD 0.3 </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="search-card card d-flex flex-row m-0 bg-transparent text-white d-none"
+                  style="width: 100%; height: 100px"
+                >
+                  <img
+                    src="photo.jpg"
+                    class="card-img-top"
+                    alt="..."
+                    style="width: 70px"
+                  />
+                  <div
+                    class="card-body d-flex flex-column justify-content-center"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text text-white">
+                      <i class="fa-solid fa-star text-warning me-1"></i>
+                      <span class="opacity-75"> Action, 2022, IMCD 0.3 </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="search-card card d-flex flex-row m-0 bg-transparent text-white d-none"
+                  style="width: 100%; height: 100px"
+                >
+                  <img
+                    src="photo.jpg"
+                    class="card-img-top"
+                    alt="..."
+                    style="width: 70px"
+                  />
+                  <div
+                    class="card-body d-flex flex-column justify-content-center"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text text-white">
+                      <i class="fa-solid fa-star text-warning me-1"></i>
+                      <span class="opacity-75"> Action, 2022, IMCD 0.3 </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="search-card card d-flex flex-row m-0 bg-transparent text-white d-none"
+                  style="width: 100%; height: 100px"
+                >
+                  <img
+                    src="photo.jpg"
+                    class="card-img-top"
+                    alt="..."
+                    style="width: 70px"
+                  />
+                  <div
+                    class="card-body d-flex flex-column justify-content-center"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text text-white">
+                      <i class="fa-solid fa-star text-warning me-1"></i>
+                      <span class="opacity-75"> Action, 2022, IMCD 0.3 </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="notfound text-white position-absolute d-flex align-items-center justify-content-start gap-3 d-none"
+                  style="width: 100%; height: 100px; top: 70px"
+                >
+                  <img
+                    src="notfound.png"
+                    alt=""
+                    height="80px ;"
+                    class="bg-white p-2 rounded"
+                  />
+                  <p>
+                    Sorry, we didn't find any matches <br />for "sdfnksjdfndskj"
+                  </p>
+                </div>
+              </div>
+
+              <button type="button" class="btn btn-outline-light">
+                Sign Up
+              </button>
+              <button
+                class="btn rounded-3"
+                style="background: #611db9; color: white"
+              >
+                Login
+              </button>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="poster-div main-content container bg-transparent text-white d-flex flex-column justify-content-center gap-2 ps-4 pe-4"
+        >
+          <h1>The Batman</h1>
+          <p class="poster-time">3h12m . 2022 . Action</p>
+          <p class="poster-desc w-50">
+          When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.
+          </p>
+          <div>
+            <button
+              class="btn rounded-3"
+              style="background: #611db9; color: white"
+            >
+              <i class="fa-solid fa-circle-play"></i>
+              Watch Trailer
+            </button>
+            <button type="button" class="btn btn-outline-light">
+              <i class="fa-regular fa-bookmark"></i>
+              Add Watchlist
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="upcoming release card-box container-fluid m-sm-5 m-3  position-relative"
+      id="scrollContainer"
+    >
+      <p class="fs-1 fw-bold text-white ms-3 mb-5">Upcoming</p>
+      <div
+        class="gallery row flex-row flex-nowrap "
+        style="width: 95%; overflow-x: hidden"
+      >
+        <i
+          class="left position-absolute fa-solid fa-angle-left text-white rounded-circle d-flex align-items-center justify-content-center"
+          style="
+            width: 40px;
+            height: 40px;
+            top: 50%;
+            left: 1.5%;
+            z-index: 1;
+            cursor: pointer;
+            background: #611db9;
+          "
+        ></i>
+
+        <div
+          class="card text-bg-dark bg-black one  p-0 ms-3  me-2  "
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one  p-0 ms-2 me-2 "
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2 "
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img " alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5 "
+            5ng/
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one  p-0 ms-2 me-2 " 
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one  p-0 ms-2 me-2 "
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one  p-0 ms-2 me-2 "
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one  p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one  p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one  p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one  p-0 ms-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+
+        <i
+          class="right position-absolute fa-solid fa-angle-right text-white rounded-circle d-flex align-items-center justify-content-center"
+          style="
+            width: 40px;
+            height: 40px;
+            top: 50%;
+            right: 7%;
+            z-index: 1;
+            cursor: pointer;
+            background: #611db9;
+          "
+        ></i>
+      </div>
+    </div>
+    <div class="feature card bg-dark text-white">
+      <video
+        src="video.mp4 "
+        autoplay
+        muted
+        loop
+        class="opacity-50"
+        style="height: 500px; object-fit: cover"
+      ></video>
+      <div
+        class="card-img-overlay d-flex align-items-center justify-content-between"
+      >
+        <div
+          class="main-content container bg-transparent text-white d-flex flex-column justify-content-center gap-2 ps-4 pe-4 "
+        >
+          <h4 class="mb-5">Best Featured For You Today</h4>
+          
+          <h1 class="mt-0 mt-lg-5">Pirates of the Caribbean </h1>
+          <p>3h12m . 2024 . Fantasy . Action</p>
+          <p>
+            Pirates of the Caribbean 6: Beyond the Horizon" sets sail with Johnny Depp returning as the legendary Captain Jack Sparrow, alongside rising star Jenna Ortega as his daughter.
+          </p>
+          <div class="d-sm-block d-flex flex-column align-items-start justify-content-center gap-1 ">
+            <button
+              class="btn rounded-3"
+              style="background: #611db9; color: white"
+            >
+              <i class="fa-solid fa-circle-play"></i>
+              Watch Trailer
+            </button>
+            <button type="button" class="btn btn-outline-light">
+              <i class="fa-regular fa-bookmark"></i>
+              Add Watchlist
+            </button>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark rounded-5 border border-secondary border-2"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Pirates_of_the_Caribbean_-_On_Stranger_Tides.png/220px-Pirates_of_the_Caribbean_-_On_Stranger_Tides.png"
+            class="card-img rounded-5"
+            alt="..."
+          />
+          <div
+            class="card-img-overlay d-flex flex-column align-items-start justify-content-end"
+          >
+            <p class="mb-1 fs-5">Pirates of the Caribbean</p>
+            <p class="mb-0">
+              <i class="fa-solid fa-star text-warning"></i>
+              6.6 | Action . Movie
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="trending release card-box container-fluid m-sm-5 m-3 position-relative"
+      id="scrollContainer"
+    >
+      <p class="fs-1 fw-bold text-white ms-3 mb-5">Trending</p>
+      <div
+        class="gallery row flex-row flex-nowrap"
+        style="width: 95%; overflow-x: hidden"
+      >
+        <i
+          class="left position-absolute fa-solid fa-angle-left text-white rounded-circle d-flex align-items-center justify-content-center"
+          style="
+            width: 40px;
+            height: 40px;
+            top: 50%;
+            left: 1.5%;
+            z-index: 1;
+            cursor: pointer;
+            background: #611db9;
+          "
+        ></i>
+      
+        <div
+          class="card text-bg-dark bg-black one  p-0 ms-3 me-2 "
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one  p-0 ms-2 me-2 "
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2 "
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+       
+        <i
+          class="right position-absolute fa-solid fa-angle-right text-white rounded-circle d-flex align-items-center justify-content-center"
+          style="
+            width: 40px;
+            height: 40px;
+            top: 50%;
+            right: 7%;
+            z-index: 1;
+            cursor: pointer;
+            background: #611db9;
+          "
+        ></i>
+      </div>
+    </div>
+    <div
+      class="popular-tv-shows release card-box container-fluid m-sm-5 m-3 position-relative"
+      id="scrollContainer"
+    >
+      <p class="fs-1 fw-bold text-white ms-3 mb-5">Popular TV Shows</p>
+      <div
+        class="gallery row flex-row flex-nowrap"
+        style="width: 95%; overflow-x: hidden"
+      >
+        <i
+          class="left position-absolute fa-solid fa-angle-left text-white rounded-circle d-flex align-items-center justify-content-center"
+          style="
+            width: 40px;
+            height: 40px;
+            top: 50%;
+            left: 1.5%;
+            z-index: 1;
+            cursor: pointer;
+            background: #611db9;
+          "
+        ></i>
+       
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-3 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2 me-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-bg-dark bg-black one p-0 ms-2"
+          style=" border: none"
+        >
+          <img src="photo.jpg" class="rounded-5 card-img" alt="..." />
+          <div
+            class="ps-4 card-img-overlay d-inline-flex flex-column justify-content-end rounded-5"
+          >
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">
+              <i class="fa-solid fa-star text-warning"></i>
+              <span> 4.6 | Mystery . Movie </span>
+            </p>
+          </div>
+        </div>
+    
+        <i
+          class="right position-absolute fa-solid fa-angle-right text-white rounded-circle d-flex align-items-center justify-content-center"
+          style="
+            width: 40px;
+            height: 40px;
+            top: 50%;
+            right: 7%;
+            z-index: 1;
+            cursor: pointer;
+            background: #611db9;
+          "
+        ></i>
+      </div>
+    </div>
+    <div  class="award bg-dnger  d-sm-flex flex-sm-row  d-flex flex-column  ">
+      <div class="award-div h-100 ">
+        <p class="text-light fs-2 ms-5">Movie on Award</p>
+        <video
+          src="kungfu.mp4"
+          class="rounded-5 mb-3 ms-3 ms-sm-5"
+          autoplay
+          loop
+          muted
+        ></video>
+        <span
+          class="best-pictures text-white mb-5 border border-secondary border-1 rounded-pill p-2"
+          
+        >
+          Best Pictures
+        </span>
+        <div
+          class="container bg-transparent text-white d-flex flex-column justify-content-center gap-2 ps-4 pe-4 mt-3 ms-4 ms-sm-5 "
+        >
+          <h1>Kung Fu Panda 4</h1>
+          <p>3h12m . 2024 . Adventure . Action</p>
+          <p>
+            After Po is tapped to become the Spiritual Leader of the Valley of Peace, he needs to find and train a new Dragon Warrior, while a wicked sorceress plans to re-summon all the master villains whom Po has vanquished to the spirit realm.
+          </p>
+          <div>
+            <button
+              class="btn rounded-3"
+              style="background: #611db9; color: white"
+            >
+              <i class="fa-solid fa-circle-play"></i>
+              Watch Trailer
+            </button>
+            <button type="button" class="btn btn-outline-light">
+              <i class="fa-regular fa-bookmark"></i>
+              Add Watchlist
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="award-div h-100 d-flex ms-0 ms-sm-5 p-sm-0 p-2 gap-sm-0 gap-3">
+        <div
+          class="fast w-50 bg-black   h-100 d-flex flex-column justify-content-between ms-sm-0 ms-4"
+        >
+          <h3 class="text-white fw-semibold">Fast</h3>
+          <div
+            class="card d-flex flex-row m-0 bg-black text-white"
+            style="width: 100%; height: 180px"
+          >
+            <img
+              src="photo.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-center align-items-start"
+            >
+              <span
+                class="border border-secondary rounded-pill ps-3 pe-3 pt-1 pb-1"
+                >PG-13</span
+              >
+              <h5 class="card-title mt-3">Card title</h5>
+              <p class="card-text">
+                <i class="fa-solid fa-star text-warning"></i>
+                <span> 4.6 | Movies </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="card d-flex flex-row m-0 bg-black text-white"
+            style="width: 100%; height: 180px"
+          >
+            <img
+              src="photo.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-center align-items-start"
+            >
+              <span
+                class="border border-secondary rounded-pill ps-3 pe-3 pt-1 pb-1"
+                >PG-13</span
+              >
+              <h5 class="card-title mt-3">Card title</h5>
+              <p class="card-text">
+                <i class="fa-solid fa-star text-warning"></i>
+                <span> 4.6 | Movies </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="card d-flex flex-row m-0 bg-black text-white"
+            style="width: 100%; height: 180px"
+          >
+            <img
+              src="photo.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-center align-items-start"
+            >
+              <span
+                class="border border-secondary rounded-pill ps-3 pe-3 pt-1 pb-1"
+                >PG-13</span
+              >
+              <h5 class="card-title mt-3">Card title</h5>
+              <p class="card-text">
+                <i class="fa-solid fa-star text-warning"></i>
+                <span> 4.6 | Movies </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="card d-flex flex-row m-0 bg-black text-white"
+            style="width: 100%; height: 180px"
+          >
+            <img
+              src="photo.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-center align-items-start"
+            >
+              <span
+                class="border border-secondary rounded-pill ps-3 pe-3 pt-1 pb-1"
+                >PG-13</span
+              >
+              <h5 class="card-title mt-3">Card title</h5>
+              <p class="card-text">
+                <i class="fa-solid fa-star text-warning"></i>
+                <span> 4.6 | Movies </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="top-rated w-50 bg-black  h-100 d-flex flex-column justify-content-between"
+        >
+          <h3 class="text-white fw-semibold">Top Rated</h3>
+          <div
+            class="card d-flex flex-row m-0 bg-black text-white"
+            style="width: 100%; height: 180px"
+          >
+            <img
+              src="photo.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-center align-items-start"
+            >
+              <span
+                class="border border-secondary rounded-pill ps-3 pe-3 pt-1 pb-1"
+                >PG-13</span
+              >
+              <h5 class="card-title mt-3">Card title</h5>
+              <p class="card-text">
+                <i class="fa-solid fa-star text-warning"></i>
+                <span> 4.6 | Movies </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="card d-flex flex-row m-0 bg-black text-white"
+            style="width: 100%; height: 180px"
+          >
+            <img
+              src="photo.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-center align-items-start"
+            >
+              <span
+                class="border border-secondary rounded-pill ps-3 pe-3 pt-1 pb-1"
+                >PG-13</span
+              >
+              <h5 class="card-title mt-3">Card title</h5>
+              <p class="card-text">
+                <i class="fa-solid fa-star text-warning"></i>
+                <span> 4.6 | Movies </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="card d-flex flex-row m-0 bg-black text-white"
+            style="width: 100%; height: 180px"
+          >
+            <img
+              src="photo.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-center align-items-start"
+            >
+              <span
+                class="border border-secondary rounded-pill ps-3 pe-3 pt-1 pb-1"
+                >PG-13</span
+              >
+              <h5 class="card-title mt-3">Card title</h5>
+              <p class="card-text">
+                <i class="fa-solid fa-star text-warning"></i>
+                <span> 4.6 | Movies </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="card d-flex flex-row m-0 bg-black text-white"
+            style="width: 100%; height: 180px"
+          >
+            <img
+              src="photo.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div
+              class="card-body d-flex flex-column justify-content-center align-items-start"
+            >
+              <span
+                class="border border-secondary rounded-pill ps-3 pe-3 pt-1 pb-1"
+                >PG-13</span
+              >
+              <h5 class="card-title mt-3">Card title</h5>
+              <p class="card-text">
+                <i class="fa-solid fa-star text-warning"></i>
+                <span> 4.6 | Movies </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container  d-sm-flex flex-sm-row gap-sm-0   d-flex flex-column  gap-5 p-sm-3 mt-sm-5 pt-sm-4 pt-4 p-3 mt-5 ps-sm-3 ps-5 " >
+      <div
+        class="footer-div text-white  d-flex flex-column justify-content-start gap-3 me-5 mt-2"
+      >
+        <a href="#">
+          <img
+            src="logo.png"
+            width="300px"
+            alt=""
+            style="filter: brightness(1.5)"
+          />
+        </a>
+        <p class="footer-desc">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum,
+          libero.
+        </p>
+        <div class="d-flex justify-content-start gap-3">
+          <a href="#" class="link-light">
+            <i class="fa-brands fa-instagram fs-3"></i
+          ></a>
+          <a href="#" class="link-light">
+            <i class="fa-brands fa-facebook fs-3"></i
+          ></a>
+          <a href="#" class="link-light">
+            <i class="fa-brands fa-x-twitter fs-3"></i>
+          </a>
+          <a href="#" class="link-light">
+            <i class="fa-brands fa-linkedin fs-3"></i>
+          </a>
+        </div>
+      </div>
+      <div
+        class="footer-div text-white d-flex flex-column justify-content-start gap-3  ms-sm-5 ms-0 "
+      >
+        <h4>Category</h4>
+        
+        <div class="d-flex flex-column h-75 gap-2">
+          <a href="#" class="link-light link-underline-opacity-0">Live</a>
+          <a href="#" class="link-light link-underline-opacity-0">Blog</a>
+          <a href="#" class="link-light link-underline-opacity-0">Movies</a>
+          <a href="#" class="link-light link-underline-opacity-0">TV Shows</a>
+          <a href="#" class="link-light link-underline-opacity-0">Buy Ticket</a>
+        </div>
+      </div>
+      <div
+        class="footer-div text-white d-flex flex-column justify-content-start gap-3"
+      >
+        <h4>Support</h4>
+        <div class="d-flex flex-column h-75 gap-2">
+          <a href="#" class="link-light link-underline-opacity-0">About Us</a>
+          <a href="#" class="link-light link-underline-opacity-0"
+            >Help Center</a
+          >
+          <a href="#" class="link-light link-underline-opacity-0"
+            >Privacy Policy</a
+          >
+          <a href="#" class="link-light link-underline-opacity-0">FAQ</a>
+        </div>
+      </div>
+      <div
+        class="footer-div text-white d-flex flex-column justify-content-start gap-3"
+      >
+        <h4>Subscriptions</h4>
+        <p class="w-75">Subscribe through our Email for more feature</p>
+        <input
+          type="email"
+          name=""
+          placeholder="Enter Your Email..."
+          id=""
+          class="form-control border-0"
+        />
+      </div>
+    </footer>
+  </body>
+</html>
